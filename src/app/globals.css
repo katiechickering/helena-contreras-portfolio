@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    /* Colors */
+    --color-brand-white: #F8F8F8;
+    --color-brand-black: #2F2F2F;
+
+    /* Fonts */
+    --font-inter: var(--font-inter);
+    --font-abhaya: var(--font-abhaya);
+}
+
+@layer base {
+    body {
+        @apply min-h-screen bg-brand-white font-inter text-brand-black;
+        margin: 0;
+    }
+    html {
+        background-color: #F8F8F8;
+    }
+}
