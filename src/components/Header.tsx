@@ -14,15 +14,15 @@ export const Header = () => {
         <nav className="fixed top-0 w-full z-50 flex flex-col backdrop-blur-md">
             <HeaderBar className="w-full"/>
 
-            <div className="flex justify-between items-center max-w-7xl mx-auto w-full
-                px-4 sm:px-10 md:px-12 py-4"
+            <div className="flex justify-between items-center mx-auto w-full
+                px-4 sm:px-15 md:px-30 py-3"
             >
                 <Link href="/" className="font-bold text-[24px] hover:text-[#AD0053]">
                     Helena Contreras
                 </Link>
 
                 {/* Desktop Nav */}
-                <div className="flex gap-8 text-[16px]">
+                <div className="flex gap-6 text-[15px]">
                     <div className="relative">
                         <button
                             type='button'
