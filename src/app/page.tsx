@@ -6,7 +6,7 @@ import PsycheJourneyAppHomepagePreview from '@/assets/PsycheJourneyApp/PsycheJou
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center py-4 md:py-28 w-237.5">
+    <div className="flex flex-col items-center py-4 md:py-28 w-[846px]">
 
       {/* Hero Section */}
       <div className="flex justify-between items-end w-full">
@@ -15,7 +15,7 @@ export default function Home() {
             HELENA
             <span className="block">CONTRERAS</span>
           </p>
-          <p className="text-[24px] leading-7.75">
+          <p className="text-[22px] leading-7.75 mt-3">
             Mexico-based
             <span className="text-[#AD0053]"> UI/UX Designer and Graphic Designer </span>
             <span className="block">with 11+ combined years of experience</span>
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 
       {/* Track My Chores App */}
-      <div className="bg-[#FFEFE0] rounded-[48px] py-9.75 px-14 flex mt-30 font-bold w-full justify-between h-109">
+      <div className="bg-[#FFEFE0] rounded-[48px] py-9.75 px-14 flex mt-25 font-bold w-full justify-between h-109">
         <div className="flex flex-col justify-between py-8">
           <p className="font-abhaya text-[24px] font-normal">
             TrackMyChores App
@@ -120,6 +120,13 @@ export default function Home() {
         </div>
         <PsycheJourneyAppHomepagePreview className="shrink-0 h-auto w-64.25"/>
       </div>
+
+      <p className="text-[40px] font-abhaya leading-12 text-center mt-25 px-2">
+        The best design solutions don’t come from
+        knowing everything but from genuine curiosity
+        about people and a deep obsession with making
+        their lives easier.
+      </p>
 
     </div>
   );
