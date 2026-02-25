@@ -42,7 +42,7 @@ export default function Home() {
           </p>
           <Link
               href="/track-my-chores"
-              className="hover:text-[#C81F66] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
+              className="hover:bg-[#999999] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
           >
               View Case Study
           </Link>
@@ -66,7 +66,7 @@ export default function Home() {
           </p>
           <Link
               href="/ceppemac"
-              className="hover:text-[#C81F66] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
+              className="hover:bg-[#999999] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
           >
               View Case Study
           </Link>
@@ -90,7 +90,7 @@ export default function Home() {
           </p>
           <Link
               href="/grupo-rfacil"
-              className="hover:text-[#C81F66] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
+              className="hover:bg-[#999999] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
           >
               View Case Study
           </Link>
@@ -113,7 +113,7 @@ export default function Home() {
           </p>
           <Link
               href="/psychejourney-app"
-              className="hover:text-[#C81F66] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
+              className="hover:bg-[#999999] bg-brand-black text-brand-white rounded-full px-4 py-2 text-[15px] w-fit"
           >
               View Case Study
           </Link>
