@@ -55,7 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${inter.variable} ${abhaya.variable}`}>
       <body className="flex flex-col min-h-screen">
         <Header />
-        <main className="flex-grow">
+        <main className="grow">
           {children}
         </main>
         <Footer />
