@@ -1,8 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import TrackMyChoresHomepagePreview from '@/assets/TrackMyChores/TrackMyChoresHomepagePreview.svg'
-import CEPPEMACHomepagePreview from '@/assets/CEPPEMAC/CEPPEMACHomepagePreview.svg'
-import GrupoRfacilHomepagePreview from '@/assets/GrupoRfacil/GrupoRfacilHomepagePreview.svg'
-import PsycheJourneyAppHomepagePreview from '@/assets/PsycheJourneyApp/PsycheJourneyAppHomepagePreview.svg'
 
 export default function Home() {
   return (
@@ -47,7 +44,13 @@ export default function Home() {
               View Case Study
           </Link>
         </div>
-        <TrackMyChoresHomepagePreview className="shrink-0 h-auto w-81.5"/>
+        <Image
+          src="/TrackMyChores/TrackMyChoresHomepagePreview.svg"
+          alt="TrackMyChores Homepage Preview"
+          width={326}
+          height={357}
+          className="shrink-0"
+        />
       </div>
 
       {/* CEPPEMAC */}
@@ -71,7 +74,13 @@ export default function Home() {
               View Case Study
           </Link>
         </div>
-        <CEPPEMACHomepagePreview className="shrink-0 h-auto w-81.5"/>
+        <Image
+          src="/CEPPEMAC/CEPPEMACHomepagePreview.svg"
+          alt="CEPPEMAC Homepage Preview"
+          width={326}
+          height={357}
+          className="shrink-0"
+        />
       </div>
 
       {/* Grupo Rfacil */}
@@ -95,7 +104,13 @@ export default function Home() {
               View Case Study
           </Link>
         </div>
-        <GrupoRfacilHomepagePreview className="shrink-0 h-auto w-88.25"/>
+        <Image
+          src="/GrupoRfacil/GrupoRfacilHomepagePreview.svg"
+          alt="GrupoRfacil Homepage Preview"
+          width={353}
+          height={260}
+          className="shrink-0"
+        />
       </div>
 
       {/* PsycheJourney App */}
@@ -118,7 +133,13 @@ export default function Home() {
               View Case Study
           </Link>
         </div>
-        <PsycheJourneyAppHomepagePreview className="shrink-0 h-auto w-64.25"/>
+        <Image
+          src="/PsycheJourneyApp/PsycheJourneyAppHomepagePreview.svg"
+          alt="PsycheJourneyApp Homepage Preview"
+          width={257}
+          height={336}
+          className="shrink-0"
+        />
       </div>
 
       <p className="text-[40px] font-abhaya leading-12 text-center mt-25 px-2">
