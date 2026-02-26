@@ -65,7 +65,7 @@ export default function TrackMyChoresPage() {
             <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mb-12">
                 <Image
                     src="/TrackMyChores/TrackMyChores3Phones.svg"
-                    alt="TrackMyChores 3 phones"
+                    alt="TrackMyChores 3 Phones"
                     width={1538}
                     height={540}
                     className="w-full"
@@ -148,9 +148,171 @@ export default function TrackMyChoresPage() {
                 Here's how I got there
             </p>
 
-            <p className="font-bold text-[14px]">
+            <p className="font-bold text-[14px] mb-3">
                 DISCOVER
             </p>
+
+            <p className="font-bold text-[27px] leading-8.5 mb-3">
+                Trust and verification emerged as the emotional and functional
+                foundation for reducing conflict in family chore management.
+            </p>
+
+            <p className="text-[16px] leading-7.25 mb-3">
+                To guide the design process, I began by analyzing the problem space through a review of parenting
+                forums, app store reviews for competing products, and established family management principles.
+            </p>
+
+            <p className="text-[16px] leading-7.25 mb-3">
+                The goal was to identify the core frustrations and unmet needs in modern chore management. My
+                exploration focused on understanding:
+            </p>
+
+            <ul className="text-[16px] leading-7.25 mb-12 list-disc pl-5">
+                <li>
+                    Common Pain Points: The recurring conflicts and points of failure in existing chore systems, both
+                    digital and analog.
+                </li>
+                <li>
+                    The Verification Gap: How the question "Is this chore done?" creates tension and undermines trust
+                    between parents and children.
+                </li>
+                <li>
+                    Desired Outcomes: The characteristics of a system that parents describe as "successful," which
+                    consistently pointed to reduced conflict and clear accountability.
+                </li>
+            </ul>
+
+            <p className="font-bold text-[26px] mb-12">
+                Key Insights:
+            </p>
+
+            <div className="rounded-[20px] py-6 px-12 bg-[#FFEFE0] mb-8 leading-7.25 tracking-[0.5px]">
+                <p className="font-bold text-[23px] mb-4">
+                    Trust is critical in driving a competitive advantage for a family
+                    chore tracker.
+                </p>
+                <p className="text-[17px]">
+                    Because parents rely on the app to manage a recurring source of household conflict,
+                    without a system that builds trust, they will revert to manual methods like nagging or
+                    paper charts.
+                </p>
+            </div>
+
+            <div className="flex justify-between tracking-[0.5px] mb-12">
+                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
+                    <p className="font-bold text-[23px] mb-4">
+                        Verification is Non-Negotiable
+                    </p>
+                    <p className="text-[17px]">
+                        Moving beyond simple checkmarks to resolve the "he said, she said" dynamic.
+                    </p>
+                </div>
+                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
+                    <p className="font-bold text-[23px] mb-4">
+                        Transparency is Key
+                    </p>
+                    <p className="text-[17px]">
+                        The process and status of chores must be clear and visible to all parties, eliminating ambiguity.
+                    </p>
+                </div>
+                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
+                    <p className="font-bold text-[23px] mb-4">
+                        Autonomy, Not Control
+                    </p>
+                    <p className="text-[17px]">
+                        Families seek a tool that teaches responsibility and reduces parental nagging, not one that micromanages.
+                    </p>
+                </div>
+            </div>
+
+            <Image
+                src="/TrackMyChores/TrackMyChoresEmpathyMap.svg"
+                alt="TrackMyChores Empathy Map"
+                width={842}
+                height={778}
+                className="mb-12"
+            />
+
+            <p className="font-bold text-[14px] mb-3">
+                DEFINE
+            </p>
+
+            <p className="font-bold text-[27px] leading-8.5 mb-3">
+                Opportunity to build trust through creating transparency
+            </p>
+
+            <p className="text-[16px] leading-7.25 mb-3">
+                My research pointed to a clear desire: families need a system that replaces doubt with verifiable
+                proof so they can trust that chores are done correctly.
+            </p>
+
+            <div className="flex justify-between tracking-[0.5px] mb-6">
+                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex flex-col w-[412px] h-[235px]">
+                    <p className="font-light text-[15px]">
+                        USER PROBLEM
+                    </p>
+                    <p className="font-bold text-[23px] mb-2">
+                        Lack of a Trustworthy System
+                    </p>
+                    <p className="text-[17px]">
+                        Parents and children struggle with constant conflict and
+                        second-guessing because there is no clear, neutral way to
+                        confirm a chore is completed to standard.
+                    </p>
+                </div>
+                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex flex-col w-[412px] h-[235px]">
+                    <p className="font-light text-[15px]">
+                        BUSINESS PROBLEM
+                    </p>
+                    <p className="font-bold text-[23px] mb-2">
+                        Lack of Competitive Edge
+                    </p>
+                    <p className="text-[17px]">
+                        Without a core feature that actively resolves the central
+                        conflict of chore management, the app is just another digital
+                        checklist, failing to motivate families to change their behavior.
+                    </p>
+                </div>
+            </div>
+
+            <p className="tracking-[0.5px] text-[22px] leading-7.25 italic text-center mb-16 px-8">
+                <span className="font-semibold">How might we </span>
+                design a verifiable completion system that increases
+                trust between parents and children while giving the app a clear
+                competitive advantage?
+            </p>
+
+            <p className="font-semibold tracking-[0.5px] leading-7.25 text-[16px] mb-8">
+                Goal: Increase perceived reliability (measured through a decrease in parental check-ins and conflict) to
+                differentiate our app from basic reminder tools by making chore completion transparent, easy to verify,
+                and undeniable. My goal was to avoid a surveillance feeling while still providing undeniable proof.
+            </p>
+
+            <p className="font-bold text-[27px] leading-8.5 mb-6">
+                POV: "As a busy parent, I'm struggling to get my kids to do their
+                chores consistently without the constant nagging and
+                arguments, so that I can have a more peaceful and cooperative
+                household."
+            </p>
+
+            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-6">
+                To humanize my research insights and guide the design process, I developed a user persona.
+            </p>
+
+            <Image
+                src="/TrackMyChores/TrackMyChoresBio.svg"
+                alt="TrackMyChores Bio"
+                width={848}
+                height={762}
+                className="mb-4"
+            />
+
+            <p className="font-bold text-[16px] leading-7.25 tracking-[0.5px] mb-20">
+                How might we… help busy parents like Kristin easily manage and confidently verify that chores are
+                done, without the need for constant reminders and conflict?
+            </p>
+
+            
         </div>
     )
 }
