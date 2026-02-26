@@ -8,11 +8,11 @@ export default function Home() {
       {/* Hero Section */}
       <div className="flex justify-between items-end w-full">
         <div className="flex flex-col">
-          <p className="font-bold text-[52px] leading-18">
+          <p className="font-bold text-[52px] leading-18 tracking-[-2px]">
             HELENA
             <span className="block">CONTRERAS</span>
           </p>
-          <p className="text-[22px] leading-7.75 mt-3">
+          <p className="text-[24px] leading-7.75 mt-3 tracking-[-2px]">
             Mexico-based
             <span className="text-[#AD0053]"> UI/UX Designer and Graphic Designer </span>
             <span className="block">with 11+ combined years of experience</span>

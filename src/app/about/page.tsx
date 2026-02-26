@@ -1,9 +1,9 @@
 export default function AboutPage() {
     return(
-        <div className="flex w-244 gap-8">
+        <div className="flex w-254 gap-8">
             <div className="rounded-full bg-[#D9D9D9] w-65 h-65 shrink-0"/>
-            <div className="flex flex-col w-full text-[16px] leading-6.5 gap-6">
-                <p className="text-[36px] font-bold">
+            <div className="flex flex-col w-full text-[16px] leading-6.5 gap-6 tracking-[0.5px]">
+                <p className="text-[36px] font-bold tracking-[-2px]">
                     Hi! I'm
                     <span className="text-[#AD0053]"> Helena</span>
                 </p>
