@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     type: 'website',
     url: '/',
     title: 'Helena Contreras | UI/UX Designer',
-    description: `UI/UX Designer and Graphic Designer with 11+ combined years of experience conceptualizing,
-          executing  and implementing creative solutions for various brands and companies.`,
+    description: `UI/UX Designer and Graphic Designer with 11+ combined years of experience conceptualizing, ` +
+          `executing  and implementing creative solutions for various brands and companies.`,
     siteName: 'Helena Contreras',
     images: [
       {
