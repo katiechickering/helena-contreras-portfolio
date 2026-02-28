@@ -62,13 +62,12 @@ export default function TrackMyChoresPage() {
                 design, front-end, and back-end.
             </p>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mb-12">
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#FFEFE0] flex py-12 justify-center mb-16">
                 <Image
                     src="/TrackMyChores/TrackMyChores3Phones.svg"
                     alt="TrackMyChores 3 Phones"
-                    width={1538}
-                    height={540}
-                    className="w-full"
+                    width={836}
+                    height={508}
                 />
             </div>
 

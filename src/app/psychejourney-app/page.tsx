@@ -39,13 +39,12 @@ export default function PsycheJourneyAppPage() {
                 </div>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mb-12">
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EFEDFF] flex py-12 justify-center mb-16">
                 <Image
                     src="/PsycheJourneyApp/PsycheJourneyApp4Phones.svg"
                     alt="PsycheJourney App 4 Phones"
-                    width={1538}
-                    height={540}
-                    className="w-full"
+                    width={754}
+                    height={477}
                 />
             </div>
 
@@ -97,7 +96,7 @@ export default function PsycheJourneyAppPage() {
                 </p>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EFEDFF] flex pt-2 justify-center mb-16">
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EFEDFF] flex pt-4 justify-center mb-16">
                 <Image
                     src="/PsycheJourneyApp/PsycheJourneyAppPhoneAndHands.svg"
                     alt="PsycheJourney App Phone and Hands"

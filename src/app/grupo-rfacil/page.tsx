@@ -46,13 +46,12 @@ export default function GrupoRfacilPage() {
                 </div>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen mb-12">
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EAF4E7] flex py-12 justify-center mb-16">
                 <Image
                     src="/GrupoRfacil/GrupoRfacilComputer.svg"
                     alt="GrupoRfacil Computer"
-                    width={1538}
-                    height={540}
-                    className="w-full"
+                    width={740}
+                    height={518}
                 />
             </div>
 
