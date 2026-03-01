@@ -1,13 +1,13 @@
 export default function AboutPage() {
     return(
-        <div className="flex w-254 gap-8">
+        <div className="flex w-254 gap-12 md:gap-8 flex-col md:flex-row items-center md:items-start px-12 md:px-0">
             <div className="rounded-full bg-[#D9D9D9] w-65 h-65 shrink-0"/>
-            <div className="flex flex-col w-full text-[16px] leading-6.5 gap-6 tracking-[0.5px]">
-                <p className="text-[36px] font-bold tracking-[-2px]">
+            <div className="flex flex-col w-full text-[16px] leading-5 md:leading-7.25 gap-6 tracking-[0.5px]">
+                <p className="text-[24px] md:text-[36px] font-bold tracking-[-2px]">
                     Hi! I'm
                     <span className="text-[#AD0053]"> Helena</span>
                 </p>
-                <p className="text-[20px] leading-7.25">
+                <p className="text-[16px] md:text-[20px]">
                     I'm a Mexico-based UX/UI Designer with a foundation of over 11 years
                     in graphic design, complemented by a background in psychology. 
                 </p>

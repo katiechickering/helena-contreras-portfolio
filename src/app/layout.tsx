@@ -56,7 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="grow flex w-full justify-center py-4 md:py-28">
+          <main className="grow flex w-full justify-center pt-24 pb-12 md:py-28">
             {children}
           </main>
           <Footer />
