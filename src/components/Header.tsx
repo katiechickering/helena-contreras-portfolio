@@ -3,8 +3,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import DropDownIcon from '@/assets/icons/DropDownIcon.svg'
-// import HeaderBar from '@/assets/HeaderBar.svg'
-// import MobileHeaderBar from '@/assets/MobileHeaderBar.svg'
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import HamburgerIcon from '@/assets/icons/HamburgerIcon.svg'
 import Image from "next/image";
@@ -21,9 +19,9 @@ export const Header = () => {
                 alt="Header Bar"
                 width={1440}
                 height={8}
-                className="w-full"
+                className="hidden md:flex w-full"
             />
-            {/* <HeaderBar className="hidden md:flex w-full"/> */}
+            
             <div className="bg-brand-white flex md:hidden w-full">
                 <Image
                     src="/header/MobileHeaderBar.svg"
@@ -32,7 +30,6 @@ export const Header = () => {
                     height={8}
                     className="w-full"
                 />
-                {/* <MobileHeaderBar className="w-full"/> */}
             </div>
 
             <div className="flex justify-between items-center mx-auto w-full
