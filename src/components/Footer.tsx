@@ -4,13 +4,13 @@ import Link from "next/link"
 
 export const Footer = () => {
     return (
-        <div className="bg-brand-black text-brand-white flex rounded-t-[48px] justify-between items-center py-10 px-20">
-            <p className="font-bold text-[38px] leading-10">
+        <div className="bg-brand-black text-brand-white flex rounded-t-[48px] justify-between md:items-center px-6 py-8 md:py-10 md:px-20 flex-col md:flex-row">
+            <p className="font-bold text-[38px] leading-10 mb-10 md:mb-0">
                 LET'S WORK
                 <span className="block">TOGETHER!</span>
             </p>
 
-            <div className="flex gap-10">
+            <div className="flex gap-8 md:gap-10 flex-col md:flex-row">
                 <div className="flex flex-col gap-1.5">
                     <p className="text-[21px]">
                         Contact
