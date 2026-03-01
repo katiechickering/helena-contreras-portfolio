@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex flex-col items-center md:w-211.5 px-6 md:px-0 gap-10 md:gap-16">
 
       {/* Hero Section */}
-      <div className="flex justify-between items-end w-full py-12">
+      <div className="flex justify-between items-end w-full pb-12">
         <div className="flex flex-col">
           <div className="md:hidden flex w-full justify-center mb-12">
             <div className="rounded-full bg-[#D9D9D9] w-65 h-65 shrink-0"/>
