@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://helena-contreras-portfolio.vercel.app'),
   title: "Helena Contreras | UI/UX Designer",
   authors: [{ name: "Helena Contreras" }],
-  description: `UI/UX Designer and Graphic Designer with 11+ combined years of experience conceptualizing,
-          executing  and implementing creative solutions for various brands and companies.`,
+  description: `UI/UX Designer and Graphic Designer with 11+ combined years of experience conceptualizing, ` +
+          `executing  and implementing creative solutions for various brands and companies.`,
   openGraph: {
     type: 'website',
     url: '/',
@@ -53,12 +53,14 @@ const abhaya = Abhaya_Libre({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${abhaya.variable}`}>
-      <body className="flex flex-col min-h-screen">
-        <Header />
-        <main className="grow flex w-full justify-center py-4 md:py-28">
-          {children}
-        </main>
-        <Footer />
+      <body>
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="grow flex w-full justify-center py-4 md:py-28">
+            {children}
+          </main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
