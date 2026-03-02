@@ -402,7 +402,7 @@ export default function CEPPEMACPage() {
                 The MoSCoW Method helped define the key features
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-3 tracking-[0.5px]">
                 Based on the competitive analysis and stakeholder goals, I prioritized key website sections for the MVP:
             </p>
 
@@ -411,69 +411,92 @@ export default function CEPPEMACPage() {
                 alt="CEPPEMAC Moscow Method"
                 width={840}
                 height={256}
-                className="mb-12"
+                className="hidden md:flex mb-12"
             />
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <Image
+                src="/CEPPEMAC/CEPPEMACMobileHaves1.svg"
+                alt="CEPPEMAC Mobile Haves 1"
+                width={840}
+                height={156}
+                className="flex md:hidden mb-6"
+            />
+
+            <Image
+                src="/CEPPEMAC/CEPPEMACMobileHaves2.svg"
+                alt="CEPPEMAC Mobile Haves 1"
+                width={840}
+                height={156}
+                className="flex md:hidden mb-12"
+            />
+
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Mapping the User Journey: Flowchart Development
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 Following feature prioritization, I created a detailed user flow diagram to visualize the primary pathways
                 through the website. This flowchart served as a critical blueprint, ensuring that the structure supported
                 seamless navigation for all key user goals—from exploring services and verifying credentials to
                 purchasing courses and making contact.
             </p>
 
-            <Image
-                src="/CEPPEMAC/CEPPEMACUserMap.svg"
-                alt="CEPPEMAC User Map"
-                width={846}
-                height={387}
-                className="mb-12"
-            />
+            <div
+                className="relative left-1/2 -mx-[50vw] w-[100dvw] overflow-x-auto
+                    md:relative md:left-0 md:mx-0 md:w-full md:overflow-visible mb-12"
+            >
+                <div className="min-w-[846px] md:min-w-0">
+                    <Image
+                        src="/CEPPEMAC/CEPPEMACUserMap.svg"
+                        alt="CEPPEMAC User Map"
+                        width={846}
+                        height={387}
+                        className="h-auto"
+                    />
+                </div>
+            </div>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Establishing a Cohesive Visual System
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 With the user flow mapped, I defined the visual foundation of the website by establishing a cohesive
                 design system centered on accessibility and professionalism.
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] font-extrabold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] font-extrabold">
                 Color Palette & Accessibility
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 The client provided a specific color palette. To ensure it met modern accessibility standards, I
                 rigorously tested all primary and secondary color combinations against WCAG (Web Content
                 Accessibility Guidelines) criteria for contrast. This process validated the palette's usability and led to
                 careful adjustments where necessary, guaranteeing that text would be legible for all users.
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] font-extrabold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] font-extrabold">
                 Typography for Hierarchy & Trust
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 For the typography system, I conducted research to select complementary typefaces that would
                 enhance readability and convey the clinic's trustworthy tone. The system establishes a clear visual
                 hierarchy—distinguishing headings, subheadings, body copy, and UI elements—to create a seamless
                 and scannable reading experience.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 This systematic approach to color and typography ensured the high-fidelity mockups would not only
                 align with the brand but also provide an inclusive and credible user experience from the start.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-12 tracking-[0.5px]">
                 Next, I began translating this structure and flow into tangible layouts through low-fidelity sketches.
             </p>
 
-            <div className="flex justify-center items-center gap-6 mb-12">
+            <div className="flex justify-center items-center gap-6 mb-12 flex-col md:flex-row">
                 <Image
                     src="/CEPPEMAC/CEPPEMACTypography.svg"
                     alt="CEPPEMAC Typography"
@@ -488,17 +511,17 @@ export default function CEPPEMACPage() {
                 />
             </div>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Structuring the Foundation with Low-Fidelity Wireframes
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 I began by translating the core content—expertise, team, and services—into structural layouts. Low-
                 fidelity wireframes allowed me to rapidly test different hierarchies for the "About Us" and "Team"
                 pages, ensuring the clinical credentials and human element were the undeniable focus from the start.
             </p>
 
-            <div className="flex justify-center items-center gap-6 mb-20">
+            <div className="flex justify-center items-center gap-6 mb-12 md:mb-20 flex-col md:flew-row">
                 <Image
                     src="/CEPPEMAC/CEPPEMACWireframe1.svg"
                     alt="CEPPEMAC Wireframe 1"
@@ -513,29 +536,29 @@ export default function CEPPEMACPage() {
                 />
             </div>
 
-            <p className="font-bold text-[14px] mb-3">
+            <p className="font-bold text-[14px] mb-2">
                 PROTOTYPE & TEST
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-6">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3 md:mb-6">
                 Validating Usability and Trust
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 To ensure the design was intuitive and fostered trust before development, I conducted moderated
                 usability tests with two participants. The goals were to validate the core user journeys: finding
                 essential information (team credentials) and completing a key action (purchasing a course).
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] font-extrabold mb-3">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] font-extrabold mb-3">
                 Test Objectives & Methodology
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-3">
                 I tasked participants with two primary activities:
             </p>
 
-            <ol className="text-[16px] leading-7.25 mb-3 pl-5 tracking-[0.5px] list-decimal">
+            <ol className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 pl-5 tracking-[0.5px] list-decimal">
                 <li>
                     Finding Specialist Information: "Imagine you want to know more about the professionals working at
                     this place. Try to find information about the team of specialists."
@@ -545,12 +568,12 @@ export default function CEPPEMACPage() {
                 </li>
             </ol>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-12 tracking-[0.5px]">
                 Participants were asked to think aloud, and their feedback was captured on task success, ease of use
                 (rated on a 5 point scale), and general impressions.
             </p>
 
-            <div className="flex justify-center items-center w-full mb-16">
+            <div className="flex justify-center items-center w-full mb-12 md:mb-16">
                 <Image
                     src="/CEPPEMAC/CEPPEMACFeedback.svg"
                     alt="CEPPEMAC Feedback"
@@ -559,24 +582,24 @@ export default function CEPPEMACPage() {
                 />
             </div>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Key Results: High Usability and Strong First Impressions
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 The testing yielded strongly positive results, confirming the effectiveness of the information
                 architecture and visual design in building a credible and easy-to-use experience.
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] font-extrabold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] font-extrabold">
                 Result 1: Flawless Task Completion and Intuitive Navigation
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-6">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-3 md:mb-6">
                 Both testers completed core tasks successfully and quickly.
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-12 pl-5 tracking-[0.5px] list-disc">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-12 pl-5 tracking-[0.5px] list-disc">
                 <li>
                     <span className="font-semibold">100% Success Rate: </span>
                     All users found the team information and completed the purchase flow without errors.
@@ -602,15 +625,15 @@ export default function CEPPEMACPage() {
                 />
             </div>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] font-extrabold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] font-extrabold">
                 Result 2: The Design Successfully Communicated Credibility
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-6">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-3 md:mb-6">
                 The strategic placement of credentials and professional layout directly impacted perceived trust.
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-6 pl-5 tracking-[0.5px] list-disc">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 md:mb-6 pl-5 tracking-[0.5px] list-disc">
                 <li>
                     <span className="font-semibold">Trust Through Clarity: </span>
                     The clear hierarchy and direct path to professional bios were cited as key
@@ -623,21 +646,21 @@ export default function CEPPEMACPage() {
                 </li>
             </ul>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-6">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-3 md:mb-6">
                 A Critical Insight: The Need for Detailed Course Descriptions
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-12">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-12">
                 While the structure was praised, testing surfaced one crucial piece of feedback: users wanted more
                 detailed descriptions for each course. This was vital input that directly impacted the user's ability to
                 make an informed purchasing decision.
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-6">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3 md:mb-6">
                 Iteration: Enhancing Content for Confident Decisions
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-12 tracking-[0.5px]">
                 Based on this clear user need, I collaborated with the client to expand and enrich the course
                 descriptions before the final hand-off. This iteration ensured the platform not only guided users to a
                 purchase but also provided the necessary context for them to do so confidently—a key factor in
@@ -653,16 +676,16 @@ export default function CEPPEMACPage() {
                 />
             </div>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-6">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3 md:mb-6">
                 Final Design Direction
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 md:mb-6 tracking-[0.5px]">
                 The prototype tested was validated as the final direction. The test results confirmed that the
                 design successfully achieved its primary goals:
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-6 pl-5 tracking-[0.5px] list-disc">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 md:mb-6 pl-5 tracking-[0.5px] list-disc">
                 <li>
                     Establishing immediate credibility through clear information architecture.
                 </li>
@@ -674,7 +697,7 @@ export default function CEPPEMACPage() {
                 </li>
             </ul>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 The process underscored that even a small number of tests can reveal powerful insights, ensuring
                 the final product is both polished and purpose-built for user needs.
             </p>
@@ -688,15 +711,15 @@ export default function CEPPEMACPage() {
                 />
             </div>
 
-            <p className="font-bold text-[14px] mb-3">
+            <p className="font-bold text-[14px] mb-2">
                 FINAL DESIGN
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-6">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3 md:mb-6">
                 A Validated Foundation
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 The user-validated design was selected as the final direction, as testing confirmed it successfully
                 established credibility through clear information architecture and provided an intuitive, trustworthy
                 experience for all target audiences.
@@ -720,20 +743,20 @@ export default function CEPPEMACPage() {
                 </a>
             </div>
 
-            <p className="font-bold text-[14px] mb-3">
+            <p className="font-bold text-[14px] mb-2">
                 REFLECTION
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-6">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3 md:mb-6">
                 What's next?
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 md:mb-6 tracking-[0.5px]">
                 Launching a credible, functional website is a significant first step in establishing CEPPEMAC's digital
                 presence. The positive validation from user testing indicates a strong foundation is in place.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 tracking-[0.5px]">
                 The immediate next step is to monitor real-world impact post-launch. Key metrics to track will include
                 engagement with the "Free Resources" section, conversion rates on course landing pages, and an
                 increase in qualified inquiries via the contact form. This data will be essential for measuring the
