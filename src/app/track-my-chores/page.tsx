@@ -321,21 +321,21 @@ export default function TrackMyChoresPage() {
                 IDEATE
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 I knew we wanted to build trust through verifiable proof. The challenge was to design a verification
                 system that builds accountability without feeling like a surveillance tool or making the process overly
                 complex.
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Competitors are establishing familiar design patterns
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 I analyzed competing family and productivity apps, which are teaching users to expect features such as:
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-8 list-disc pl-5 tracking-[0.5px]">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 list-disc pl-5 tracking-[0.5px]">
                 <li>
                     Common Pain Points: The recurring conflicts and points of failure in existing chore systems, both
                     digital and analog.
@@ -350,7 +350,7 @@ export default function TrackMyChoresPage() {
                 </li>
             </ul>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 These features directly aligned with the user needs we identified in our discovery phase. However, in
                 the chore-tracking space, these features are often buried or feel transactional. My opportunity was to
                 build on these insights and adapt them to create a more intuitive and trust-focused experience.
@@ -361,45 +361,61 @@ export default function TrackMyChoresPage() {
                 alt="TrackMyChores Competitors"
                 width={846}
                 height={548}
-                className="mb-20"
+                className="mb-12 md:mb-20"
             />
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 The MoSCoW Method helped define the key features
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-3 tracking-[0.5px]">
                 Based on the user research, I prioritized key features using the MoSCoW method to ensure the solution
                 directly addressed core user pains around simplicity and trust.
             </p>
 
             <Image
                 src="/TrackMyChores/TrackMyChoresHaves.svg"
-                alt="TrackMyChores Haves"
+                alt="Track My Chores Haves"
                 width={840}
                 height={156}
-                className="mb-16"
+                className="hidden md:flex mb-16"
             />
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <Image
+                src="/TrackMyChores/TrackMyChoresMobileHaves1.svg"
+                alt="Track My Chores Mobile Haves 1"
+                width={840}
+                height={156}
+                className="flex md:hidden mb-6"
+            />
+
+            <Image
+                src="/TrackMyChores/TrackMyChoresMobileHaves2.svg"
+                alt="Track My Chores Mobile Haves 1"
+                width={840}
+                height={156}
+                className="flex md:hidden mb-12"
+            />
+
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Low-fidelity sketches let us explore different layouts quickly
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 Now it was time to start visualizing! I began by sketching low-fidelity ideas for the core verification
                 interaction: how a user would submit proof of a completed chore and how that proof would be
                 presented for review.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-3 tracking-[0.5px]">
                 My primary focus was a Streamlined Flow—a minimal, step-by-step process designed for speed and
                 clarity. The goal was to make submitting proof as effortless as possible: capture a photo, add an
                 optional note, and submit. The corresponding parent review interface was designed as a simple,
                 focused list of tasks awaiting approval, minimizing cognitive load and decision time.
             </p>
 
-            <div className="flex justify-between mb-20">
-                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex justify-center items-center w-[412px] h-[361px]">
+            <div className="flex justify-between mb-12 md:mb-20 flex-col md:flex-row gap-y-6">
+                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex justify-center items-center md:w-[412px] md:h-[361px] w-full h-full">
                     <Image
                         src="/TrackMyChores/TrackMyChoresSketch1.svg"
                         alt="TrackMyChores Sketch 1"
@@ -407,7 +423,7 @@ export default function TrackMyChoresPage() {
                         height={313}
                     />
                 </div>
-                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex justify-center items-center w-[412px] h-[361px]">
+                <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex justify-center items-center md:w-[412px] md:h-[361px] w-full h-full">
                     <Image
                         src="/TrackMyChores/TrackMyChoresSketch2.svg"
                         alt="TrackMyChores Sketch 2"
@@ -421,48 +437,60 @@ export default function TrackMyChoresPage() {
                 PROTOTYPE & TEST
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 A functional prototype was built to test the core verification flow
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-3 tracking-[0.5px]">
                 I developed a high-fidelity, functional prototype" flow for both light and dark mode, fulfilling a key
                 client requirement.
             </p>
 
-            <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex justify-center items-center mb-3">
-                <Image
-                    src="/TrackMyChores/TrackMyChoresDarkMode.svg"
-                    alt="TrackMyChores Dark Mode"
-                    width={692}
-                    height={347}
-                />
+            <div
+                className="bg-[#FFEFE0] md:rounded-[20px] mb-6 md:mb-3 relative left-1/2 -mx-[50vw] w-[100dvw]
+                    overflow-x-auto md:overflow-visible md:w-full md:mx-auto md:left-0"
+                >
+                <div className="min-w-[692px] md:min-w-0 p-6 flex justify-start md:justify-center">
+                    <Image
+                        src="/TrackMyChores/TrackMyChoresDarkMode.svg"
+                        alt="TrackMyChores Dark Mode"
+                        width={692}
+                        height={347}
+                        className="h-auto"
+                    />
+                </div>
             </div>
 
-            <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex justify-center items-center mb-12">
-                <Image
-                    src="/TrackMyChores/TrackMyChoresLightMode.svg"
-                    alt="TrackMyChores Light Mode"
-                    width={690}
-                    height={347}
-                />
+            <div
+                className="bg-[#FFEFE0] md:rounded-[20px] mb-6 md:mb-3 relative left-1/2 -mx-[50vw] w-[100dvw]
+                    overflow-x-auto md:overflow-visible md:w-full md:mx-auto md:left-0"
+                >
+                <div className="min-w-[692px] md:min-w-0 p-6 flex justify-start md:justify-center">
+                    <Image
+                        src="/TrackMyChores/TrackMyChoresLightMode.svg"
+                        alt="TrackMyChores Light Mode"
+                        width={692}
+                        height={347}
+                        className="h-auto"
+                    />
+                </div>
             </div>
 
             <p className="font-bold text-[17px] leading-7.25 tracking-[0.5px] mb-3">
                 Usability testing validated the design's effectiveness and identified key refinements
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-8">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-6 md:mb-8">
                 We conducted moderated usability tests with five families to observe the prototype in a real world
                 context. The goal was to evaluate the intuitiveness of the verification system and its impact on the
                 perceived fairness and trust within the family unit.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 md:mb-3 tracking-[0.5px]">
                 Participants were asked to complete two core tasks:
             </p>
 
-            <ol className="text-[16px] leading-7.25 mb-6 pl-5 tracking-[0.5px] list-decimal">
+            <ol className="hidden md:block text-[16px] leading-7.25 mb-6 pl-5 tracking-[0.5px] list-decimal">
                 <li>
                     For the child: Submit proof that a chore was finished.
                 </li>
@@ -470,6 +498,14 @@ export default function TrackMyChoresPage() {
                     For the parent: Review and approve a completed chore.
                 </li>
             </ol>
+
+            <p className="flex md:hidden text-[12px] leading-5 tracking-[0.5px]">
+                For the child: Submit proof that a chore was finished.
+            </p>
+
+            <p className="flex md:hidden text-[12px] leading-5 tracking-[0.5px] mb-6">
+                For the parent: Review and approve a completed chore.
+            </p>
 
             <div className="bg-[#FFEFE0] rounded-[20px] p-6 flex justify-center items-center">
                 <Image

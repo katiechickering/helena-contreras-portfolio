@@ -285,20 +285,20 @@ export default function GrupoRfacilPage() {
                 IDEATE
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 Given the accelerated timeline, the ideation phase was streamlined into a focused execution strategy.
                 The core challenge was clear: how to rapidly unify a fragmented interface into a modern, coherent
                 system that feels both professional and familiar to enterprise users.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 md:mb-8 tracking-[0.5px]">
                 I leveraged established design patterns from leading enterprise and SaaS platforms—such as clear
                 data tables, consistent action buttons, and predictable navigation models—as a foundational
                 benchmark. These conventions are proven to reduce cognitive load and accelerate proficiency, which
                 was essential for this fast-tracked project.
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 The MoSCoW method helped prioritize design efforts within the tight deadline:
             </p>
 
@@ -389,17 +389,17 @@ export default function GrupoRfacilPage() {
                 platform not only for its current update but for continued, user-centered refinement.
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Lessons Learned
             </p>
 
-            <div className="rounded-[20px] py-6 px-6 bg-[#EAF4E7] flex flex-col text-[16px] leading-7.25 tracking-[0.5px] gap-3">
-                <p className="px-6">
+            <div className="rounded-[20px] p-3 md:p-6 bg-[#EAF4E7] flex flex-col text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] gap-3">
+                <p className="p-3 md:px-6">
                     Visual cohesion is a business deliverable. For an enterprise platform, a modernized and
                     unified interface directly addresses core business needs
                 </p>
                 <div className="h-0.5 w-full bg-brand-white"/>
-                <p className="px-6">
+                <p className="p-3 md:px-6">
                     Scope discipline ensures impact. By strictly prioritizing the most visible and critical user flows
                     for the redesign, the project maintained focus and momentum, proving that a targeted, high-
                     impact approach often delivers more value than a broad but superficial one.

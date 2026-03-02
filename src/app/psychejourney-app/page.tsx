@@ -208,11 +208,11 @@ export default function PsycheJourneyAppPage() {
                 IDEATE
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-4 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-4 tracking-[0.5px]">
                 I established core pillars to guide all design decisions:
             </p>
 
-            <ol className="text-[16px] leading-7.25 pl-5 list-decimal marker:font-semibold mb-12">
+            <ol className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 pl-5 list-decimal marker:font-semibold mb-6 md:mb-12">
                 <li>
                     <span className="font-semibold">Architecture of Trust: </span>
                     Adopt the proven, four-tab navigation model of major platforms for zero-
@@ -240,7 +240,7 @@ export default function PsycheJourneyAppPage() {
                 </li>
             </ol>
 
-            <div className="mb-16 flex w-full justify-center">
+            <div className="mb-12 md:mb-16 flex w-full justify-center">
                 <Image
                     src="/PsycheJourneyApp/PsycheJourneyApp1Phone.svg"
                     alt="PsycheJourney App 1 Phone"
@@ -253,15 +253,15 @@ export default function PsycheJourneyAppPage() {
                 PROTOTYPE & VISUAL EXECUTION
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 The high-fidelity prototype brought the strategy to life across key user flows.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-2 tracking-[0.5px] font-semibold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-2 tracking-[0.5px] font-semibold">
                 A. The Dashboard & Navigation
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-8 md:mb-12 tracking-[0.5px]">
                 The home screen balanced promotional hierarchy with serene spaciousness. The bottom navigation
                 offered clear, weighted icons for Home, Therapy, Store, and Cart, with a profile hub accessible via a
                 discreet avatar. This layout provided instant orientation.
@@ -276,17 +276,17 @@ export default function PsycheJourneyAppPage() {
                 />
             </div>
 
-            <p className="text-[16px] leading-7.25 mb-2 tracking-[0.5px] font-semibold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-2 tracking-[0.5px] font-semibold">
                 B. The "Therapy" Section (Content Hub)
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 This section was designed as a curated content library, not a chronological blog. The layout establishes
                 a clear hierarchy: a prominent search bar at the top, followed by a "Weekly Highlights" carousel, and
                 finally a scrollable feed of categorized articles and media.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-8 md:mb-12 tracking-[0.5px]">
                 Content is organized into intuitive, topic-based cards for sections like "Salud Mental" (Mental Health),
                 documentary "Series", and "Noticias" (News). Each card uses a consistent template with clean
                 typography, ample margins, and descriptive tags, emphasizing the quality and authority of the
@@ -303,17 +303,17 @@ export default function PsycheJourneyAppPage() {
                 />
             </div>
 
-            <p className="text-[16px] leading-7.25 mb-2 tracking-[0.5px] font-semibold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-2 tracking-[0.5px] font-semibold">
                 C. The Store & Product Experience
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 The store interface implements a clean, card-based grid that balances visual appeal with clear
                 commerce functionality. As shown, the design includes persistent category navigation and standard e-
                 commerce controls (Sort & Filter) to facilitate focused browsing.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-8 md:mb-12 tracking-[0.5px]">
                 Each product card maintains a consistent layout: a dominant product image is paired with essential
                 details—concise title, descriptive tagline, and prominent pricing—all set in a clear typographic
                 hierarchy. This approach creates a familiar, trustworthy shopping environment that feels both curated
@@ -331,11 +331,11 @@ export default function PsycheJourneyAppPage() {
                 />
             </div>
 
-            <p className="text-[16px] leading-7.25 mb-2 tracking-[0.5px] font-semibold">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-2 tracking-[0.5px] font-semibold">
                 D. Unified Design System
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-8 md:mb-12 tracking-[0.5px]">
                 A focused style guide documented the color palette with HEX codes for primary, secondary, and UI
                 states; the typographic scale for headers, body, and captions; and the library of components (buttons,
                 form fields, icons). This ensured every screen felt part of a single, intentional system.
@@ -354,12 +354,12 @@ export default function PsycheJourneyAppPage() {
                 IMPACT: THE POTENTIAL OUTCOME
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 While not user-tested, the project successfully demonstrates how strategic visual design can redefine
                 a category's perception. The final UI delivers on its core objectives:
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
                 <li>
                     <span className="font-semibold">Professionalism: </span>
                     It feels legitimate and trustworthy, akin to platforms for serious hobbies or
@@ -378,17 +378,17 @@ export default function PsycheJourneyAppPage() {
             </ul>
 
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Lessons Learned
             </p>
 
-            <div className="rounded-[20px] py-6 px-6 bg-[#EFEDFF] flex flex-col text-[16px] leading-7.25 tracking-[0.5px] gap-3">
-                <p className="px-6">
+            <div className="rounded-[20px] p-3 md:p-6 bg-[#EFEDFF] flex flex-col text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] gap-3">
+                <p className="p-3 md:px-6">
                     Constraint Fuels Creativity: Limiting the color palette and adhering to strict grid layouts
                     forced more innovative solutions within the micro-interactions and typographic details.
                 </p>
                 <div className="h-0.5 w-full bg-brand-white"/>
-                <p className="px-6">
+                <p className="p-3 md:px-6">
                     Visual Design is Communication: Every color, font, and spacing choice communicates values.
                     Choosing calm over chaos directly supports the business goal of building trust with a
                     discerning audience.

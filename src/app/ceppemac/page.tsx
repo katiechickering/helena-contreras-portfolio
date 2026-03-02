@@ -357,22 +357,22 @@ export default function CEPPEMACPage() {
                 IDEATE
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-8 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 tracking-[0.5px]">
                 We knew we wanted to build trust by showcasing professional expertise. Our challenge was to present
                 credentials and evidence-based authority in a way that felt integrated and reassuring, without making
                 the website feel like an informal site.
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Industry leaders are establishing trusted design patterns
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 Websites for leading clinics and medical institutions are teaching users to expect certain trust-building
                 features, such as:
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-8 list-disc pl-5 tracking-[0.5px]">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-8 list-disc pl-5 tracking-[0.5px]">
                 <li>
                     Team Member Bios with photos and detailed qualifications
                 </li>
@@ -384,7 +384,7 @@ export default function CEPPEMACPage() {
                 </li>
             </ul>
 
-            <p className="text-[16px] leading-7.25 mb-6 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 tracking-[0.5px]">
                 While these features aligned with user needs, they are typically executed with a cold, utilitarian feel.
                 My goal was to reinterpret them through a human-centric lens, transforming standard functionality into
                 a warm, collaborative, and trust-focused experience.
@@ -395,10 +395,10 @@ export default function CEPPEMACPage() {
                 alt="CEPPEMAC Color Theme"
                 width={845}
                 height={548}
-                className="mb-16"
+                className="mb-12 md:mb-16"
             />
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 The MoSCoW Method helped define the key features
             </p>
 
@@ -740,28 +740,28 @@ export default function CEPPEMACPage() {
                 design's effectiveness and guiding future iterations
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Lessons Learned
             </p>
 
-            <div className="rounded-[20px] py-6 px-6 bg-[#E8F5FF] flex flex-col text-[16px] leading-7.25 tracking-[0.5px] gap-3 mb-12">
-                <p className="px-6">
+            <div className="rounded-[20px] p-3 md:p-6 bg-[#E8F5FF] flex flex-col text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] gap-3 mb-12">
+                <p className="p-3 md:px-6">
                     Strategic exploration through multiple layout sketches was essential for discovering the most
                     intuitive way to present professional information and build credibility.
                 </p>
                 <div className="h-0.5 w-full bg-brand-white"/>
-                <p className="px-6">
+                <p className="p-3 md:px-6">
                     Trust established through professional design is the essential foundation that enables users
                     to seamlessly achieve their goals
                 </p>
                 <div className="h-0.5 w-full bg-brand-white"/>
-                <p className="px-6">
+                <p className="p-3 md:px-6">
                     User testing confirmed that comprehensive, detailed content was essential for building user
                     confidence and enabling informed decisions.
                 </p>
             </div>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Director of the Children's Area Thoughts
             </p>
 
