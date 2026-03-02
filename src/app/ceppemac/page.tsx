@@ -2,18 +2,21 @@ import Image from "next/image";
 
 export default function CEPPEMACPage() {
     return(
-        <div className="flex flex-col w-212">
-            <p className="text-[16px] font-semibold mb-5 -mx-13.5 w-239">
+        <div className="flex flex-col w-full md:w-212 px-6 md:px-0">
+            <p className="text-[16px] font-semibold mb-5 mx-0 md:-mx-13.5 w-full md:w-239">
                 CEPPEMAC Website
             </p>
 
-            <p className="text-[28px] leading-9.5 tracking-[-2px] mb-8 -mx-13.5 w-239">
+            <p className="text-[20px] md:text-[28px] leading-7 md:leading-9.5 tracking-[-2px] mb-8 mx-0 md:-mx-13.5 w-full md:w-239">
                 Designed and delivered CEPPEMAC's first professional website, successfully
                 translating their clinical expertise into a trusted digital platform ready to serve
                 clients and sell courses.
             </p>
 
-            <div className="flex justify-between text-[17.5px] leading-6 mb-8 -mx-13.5 w-239">
+            <div
+                className="flex md:justify-between text-[14px] md:text-[17.5px] leading-6
+                    mb-8 mx-0 md:-mx-13.5 w-full md:w-239 flex-wrap gap-5"
+            >
                 <div className="flex flex-col">
                     <p className="tracking-widest text-[14px] mb-1.5">
                         ROLE
@@ -61,7 +64,10 @@ export default function CEPPEMACPage() {
                 </div>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#E8F5FF] flex py-12 justify-center mb-16">
+            <div
+                className="md:relative md:left-1/2 md:right-1/2 md:-mx-[50vw] md:w-screen w-full bg-[#E8F5FF] flex justify-center
+                    mb-12 md:mb-16 rounded-[20px] md:rounded-0 p-3 md:py-12 h-71.75 md:h-auto items-center"
+            >
                 <Image
                     src="/CEPPEMAC/CEPPEMAC3Devices.svg"
                     alt="CEPPEMAC 3 Devices"
@@ -70,11 +76,11 @@ export default function CEPPEMACPage() {
                 />
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Overview
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     CEPPEMAC is an established psychological clinic seeking to expand its
                     reach and share its expertise through a professional digital presence.
                     Their goal is to become a trusted online resource by offering educational
@@ -83,11 +89,11 @@ export default function CEPPEMACPage() {
                 </p>
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Problem
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     As their first-ever website, the primary challenge was to instantly establish
                     credibility and trust with online visitors. Without a pre-existing digital
                     reputation, potential users had no way to verify the clinic's professional
@@ -96,48 +102,48 @@ export default function CEPPEMACPage() {
                 </p>
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Solution
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     Design and develop a professional website that strategically showcases
                     CEPPEMAC's credentials, licensed therapists, and evidence-based
                     methodology. 
                 </p>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#E8F5FF] flex py-12 justify-center mb-16">
-                <div className="w-212 flex flex-col">
-                    <p className="font-bold text-[27px] mb-4">
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#E8F5FF] flex md:py-12 pt-6 pb-12 justify-center mb-12 md:mb-16">
+                <div className="md:w-212 w-full flex flex-col px-6 md:px-0 gap-4">
+                    <p className="font-semibold md:font-bold text-[18px] md:text-[27px]">
                         Impact
                     </p>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-10 pl-2 items-center mb-4">
-                        <p className="font-bold text-[28px] w-50 text-center">
+                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center">
+                        <p className="font-bold text-[28px] md:w-50 w-25 text-center shrink-0">
                             100%
                         </p>
-                        <div className="w-0.5 h-20.5 bg-brand-black mr-4"/>
-                        <p className="text-[17px] leading-7.25 tracking-[0.5]">
+                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                        <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
                             100% Task Success Rate: testers successfully found the specialist team
                             information and completed a course purchase flow without errors.
                         </p>
                     </div>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-10 pl-2 items-center mb-4">
-                        <p className="font-bold text-[28px] w-50 text-center">
+                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center">
+                        <p className="font-bold text-[28px] md:w-50 w-25 text-center shrink-0">
                             5/5
                         </p>
-                        <div className="w-0.5 h-20.5 bg-brand-black mr-4"/>
-                        <p className="text-[17px] leading-7.25 tracking-[0.5]">
+                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                        <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
                             Testers rated the ease of finding the "Our Team" section a perfect 5 out of 5,
                             noting it was clearly located in the “About us” section.
                         </p>
                     </div>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-10 pl-2 items-center">
-                        <p className="font-bold text-[28px] w-50 text-center">
+                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center">
+                        <p className="font-bold text-[28px] md:w-50 w-25 text-center shrink-0">
                             100%
                         </p>
-                        <div className="w-0.5 h-20.5 bg-brand-black mr-4"/>
-                        <p className="text-[17px] leading-7.25 tracking-[0.5]">
+                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                        <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
                             The professional layout and clear presentation of credentials were explicitly
                             cited as primary reasons testers would trust the clinic.
                         </p>

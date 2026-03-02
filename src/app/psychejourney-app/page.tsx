@@ -2,17 +2,20 @@ import Image from "next/image";
 
 export default function PsycheJourneyAppPage() {
     return(
-        <div className="flex flex-col w-212">
-            <p className="text-[16px] font-semibold mb-5 -mx-13.5 w-239">
+        <div className="flex flex-col w-full md:w-212 px-6 md:px-0">
+            <p className="text-[16px] font-semibold mb-5 mx-0 md:-mx-13.5 w-full md:w-239">
                 PsycheJourney App
             </p>
 
-            <p className="text-[28px] leading-9.5 tracking-[-2px] mb-8 -mx-13.5 w-239">
+            <p className="text-[20px] md:text-[28px] leading-7 md:leading-9.5 tracking-[-2px] mb-8 mx-0 md:-mx-13.5 w-full md:w-239">
                 Crafting a digital environment that reflects the depth and intentionality of its
                 audience, replacing sensationalist clichés with calm, trustworthy professionalism.
             </p>
 
-            <div className="flex justify-between text-[17.5px] leading-6 mb-12 -mx-13.5 w-239">
+            <div
+                className="flex md:justify-between text-[14px] md:text-[17.5px] leading-6
+                    mb-8 mx-0 md:-mx-13.5 w-full md:w-239 flex-wrap gap-5"
+            >
                 <div className="flex flex-col">
                     <p className="tracking-widest text-[14px] mb-1.5">
                         ROLE
@@ -39,7 +42,10 @@ export default function PsycheJourneyAppPage() {
                 </div>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EFEDFF] flex py-12 justify-center mb-16">
+            <div
+                className="md:relative md:left-1/2 md:right-1/2 md:-mx-[50vw] md:w-screen w-full bg-[#EFEDFF] flex justify-center
+                    mb-12 md:mb-16 rounded-[20px] md:rounded-0 p-3 md:py-12 h-71.75 md:h-auto items-center"
+            >
                 <Image
                     src="/PsycheJourneyApp/PsycheJourneyApp4Phones.svg"
                     alt="PsycheJourney App 4 Phones"
@@ -48,11 +54,11 @@ export default function PsycheJourneyAppPage() {
                 />
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Overview
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     PsycheJourney is a conceptual e-commerce platform designed for the
                     experienced practitioner. It moves beyond basic retail to serve as a
                     refined tool for the conscious community, offering curated books, artisan
@@ -63,11 +69,11 @@ export default function PsycheJourneyAppPage() {
                 </p>
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Problem
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     The primary tension was aesthetic and perceptual: How to visually embody a
                     topic historically linked to chaotic “trippiness” while creating an interface
                     that feels calm, trustworthy, and professional. The goal was to design a UI
@@ -78,11 +84,11 @@ export default function PsycheJourneyAppPage() {
                 </p>
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Solution
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     The strategy was “Purposeful Clarity.” I rejected overt psychedelic tropes in
                     favor of a sophisticated pastel palette, chosen for its ability to be both
                     tranquil and subtly engaging. The layout architecture adopted the robust,

@@ -2,18 +2,21 @@ import Image from "next/image";
 
 export default function GrupoRfacilPage() {
     return(
-        <div className="flex flex-col w-212">
-            <p className="text-[16px] font-semibold mb-5 -mx-13.5 w-239">
+        <div className="flex flex-col w-full md:w-212 px-6 md:px-0">
+            <p className="text-[16px] font-semibold mb-5 mx-0 md:-mx-13.5 w-full md:w-239">
                 Grupo Rfacil
             </p>
 
-            <p className="text-[28px] leading-9.5 tracking-[-2px] mb-8 -mx-13.5 w-239">
+            <p className="text-[20px] md:text-[28px] leading-7 md:leading-9.5 tracking-[-2px] mb-8 mx-0 md:-mx-13.5 w-full md:w-239">
                 Elevating Grupo Rfacil’s platform through a rapid, systemic redesign that
                 modernized the interface, standardized visual patterns, and delivered a production
                 ready design system laying a scalable foundation for evolution.
             </p>
 
-            <div className="flex justify-between text-[17.5px] leading-6 mb-12 -mx-13.5 w-239">
+            <div
+                className="flex md:justify-between text-[14px] md:text-[17.5px] leading-6
+                    mb-8 mx-0 md:-mx-13.5 w-full md:w-239 flex-wrap gap-5"
+            >
                 <div className="flex flex-col">
                     <p className="tracking-widest text-[14px] mb-1.5">
                         ROLE
@@ -46,7 +49,10 @@ export default function GrupoRfacilPage() {
                 </div>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EAF4E7] flex py-12 justify-center mb-16">
+            <div
+                className="md:relative md:left-1/2 md:right-1/2 md:-mx-[50vw] md:w-screen w-full bg-[#EAF4E7] flex justify-center
+                    mb-12 md:mb-16 rounded-[20px] md:rounded-0 p-3 md:py-12 h-71.75 md:h-auto items-center"
+            >
                 <Image
                     src="/GrupoRfacil/GrupoRfacilComputer.svg"
                     alt="GrupoRfacil Computer"
@@ -55,11 +61,11 @@ export default function GrupoRfacilPage() {
                 />
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Overview
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     Grupo Rfacil is an established Mexican software company with over 15
                     years in the market, specializing in comprehensive web systems for
                     administrative, financial, and electronic billing processes. Their platform
@@ -69,11 +75,11 @@ export default function GrupoRfacilPage() {
                 </p>
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Problem
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     The platform suffered from a non-standardized, legacy interface. The
                     inconsistent design and poor visual hierarchy across modules created a
                     fragmented user experience, increasing cognitive load for users and failing
@@ -83,11 +89,11 @@ export default function GrupoRfacilPage() {
                 </p>
             </div>
 
-            <div className="flex mb-8">
-                <p className="font-bold text-[26px] w-56 shrink-0">
+            <div className="flex mb-8 flex-col md:flex-row">
+                <p className="font-semibold md:font-bold text-[18px] md:text-[26px] w-full md:w-56 shrink-0 mb-2 md:mb-0">
                     Solution
                 </p>
-                <p className="text-[16px] leading-7.25 tracking-[0.5px]">
+                <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px]">
                     Execute a rapid, strategic visual overhaul to modernize and unify the
                     platform's interface. Deliver a coherent, professional design system with
                     production-ready UI assets, enabling immediate development
@@ -98,36 +104,36 @@ export default function GrupoRfacilPage() {
                 </p>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EAF4E7] flex py-12 justify-center mb-16">
-                <div className="w-212 flex flex-col">
-                    <p className="font-bold text-[27px] mb-4">
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EAF4E7] flex md:py-12 pt-6 pb-12 justify-center mb-12 md:mb-16">
+                <div className="md:w-212 w-full flex flex-col px-6 md:px-0 gap-4">
+                    <p className="font-semibold md:font-bold text-[18px] md:text-[27px]">
                         Impact
                     </p>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-10 pl-2 items-center mb-4 h-32.5">
-                        <div className="w-6" />
-                        <div className="w-0.5 h-20.5 bg-brand-black mr-4"/>
-                        <p className="text-[17px] leading-7.25 tracking-[0.5]">
-                            <span className="font-bold">Delivered a Cohesive Design System: </span>
+                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center h-32.5">
+                        <div className="md:w-6 w-3 shrink-0" />
+                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                        <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
+                            <span className="font-semibold md:font-bold">Delivered a Cohesive Design System: </span>
                             Established a unified visual language and component
                             library, eliminating inconsistencies and providing a scalable foundation for all future
                             development.
                         </p>
                     </div>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-10 pl-2 items-center mb-4 h-32.5">
-                        <div className="w-6" />
-                        <div className="w-0.5 h-20.5 bg-brand-black mr-4"/>
-                        <p className="text-[17px] leading-7.25 tracking-[0.5]">
-                            <span className="font-bold">Met Critical Business Deadlines: </span>
+                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center h-32.5">
+                        <div className="md:w-6 w-3 shrink-0" />
+                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                        <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
+                            <span className="font-semibold md:font-bold">Met Critical Business Deadlines: </span>
                             Successfully delivered production-ready UI assets within an
                             accelerated timeline, enabling the development team to begin implementation immediately for
                             stakeholder presentations.
                         </p>
                     </div>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-10 pl-2 items-center h-32.5">
-                        <div className="w-6" />
-                        <div className="w-0.5 h-20.5 bg-brand-black mr-4"/>
-                        <p className="text-[17px] leading-7.25 tracking-[0.5]">
-                            <span className="font-bold">Enhanced Product Perception: </span>
+                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center h-32.5">
+                        <div className="md:w-6 w-3 shrink-0" />
+                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                        <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
+                            <span className="font-semibold md:font-bold">Enhanced Product Perception: </span>
                             A strategic foundation that allows Grupo Rfacil to present a
                             renewed, professional product face to the market.
                         </p>

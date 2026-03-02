@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center md:w-211.5 px-6 md:px-0 gap-10 md:gap-16">
+    <div className="flex flex-col items-center w-full md:w-211.5 px-6 md:px-0 gap-10 md:gap-16">
 
       {/* Hero Section */}
       <div className="flex justify-between items-end w-full pb-12">
