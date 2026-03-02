@@ -310,7 +310,7 @@ export default function GrupoRfacilPage() {
                 className="mb-6"
             />
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 tracking-[0.5px]">
                 This framework ensured the design effort was concentrated on delivering maximum visual and
                 structural impact where it mattered most, directly supporting the business goal of presenting a
                 renewed, professional platform.
@@ -320,24 +320,24 @@ export default function GrupoRfacilPage() {
                 FINAL DESIGN
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 A Unified Design System for Immediate Impact
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 Given the accelerated timeline, the final design delivered a complete and unified visual system for the
                 platform’s core experience. This approach directly met the business need for a modern, professional
                 interface ready for client presentation and immediate development.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 The solution focused on establishing a consistent component library, a cohesive color and typography
                 scale, and standardized templates for key flows. This provided an instant visual upgrade and a scalable
                 foundation, resolving the fragmentation of the legacy interface without the need for a prolonged
                 discovery cycle.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-12 tracking-[0.5px]">
                 The outcome was a set of production-ready UI assets that successfully elevated the platform’s
                 perception, aligning its outward appearance with the robustness of its underlying functionality.
             </p>
@@ -363,25 +363,25 @@ export default function GrupoRfacilPage() {
                 REFLECTION
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 What’s next?
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 This strategic visual overhaul successfully delivered the modernized, unified interface needed for
                 Grupo Rfacil's immediate business and development goals. Establishing a coherent design system and
                 production-ready assets was the essential first step, transforming the platform's front-end into a
                 professional, scalable foundation.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 The real impact of this work will be validated through real-world use. The next focus will be on
                 measuring adoption—tracking reductions in user-reported confusion, improvements in task efficiency,
                 and gathering direct feedback from the platform's administrators. These insights will be crucial for
                 guiding the project's evolution.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-12 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 tracking-[0.5px]">
                 With this robust foundation now in place, the path is open for deeper enhancements. Future work can
                 build directly upon this system to further advance the user experience, such as introducing
                 sophisticated data visualizations for dashboards, streamlining complex multi-step workflows, and
