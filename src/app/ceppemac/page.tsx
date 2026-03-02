@@ -151,7 +151,7 @@ export default function CEPPEMACPage() {
                 </div>
             </div>
 
-            <p className="font-bold text-[27px] text-center mb-16">
+            <p className="font-semibold md:font-bold text-[18px] md:text-[27px] text-center mb-12 md:mb-16">
                 Here's how I got there
             </p>
 
@@ -159,23 +159,23 @@ export default function CEPPEMACPage() {
                 DISCOVER
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 A professional and credible digital presence is critical for a
                 psychology clinic to attract and retain clients and course
                 participants.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 To guide the design process, I began by conducting a competitive analysis of other psychology clinics
                 and online course platforms, alongside in-depth discussions with the directors of CEPPEMAC.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 The goal was to understand the competitive landscape and translate the clinic's specific vision into a
                 design that would establish immediate trust. My exploration focused on:
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
                 <li>
                     What visual and content elements signal "credibility" and "expertise" in the mental health field?
                 </li>
@@ -188,57 +188,56 @@ export default function CEPPEMACPage() {
                 </li>
             </ul>
 
-            <p className="font-bold text-[26px] mb-8">
+            <p className="font-semibold md:font-bold text-[18px] md:text-[26px] mb-5 md:mb-8">
                 Key Insights:
             </p>
 
-            <div className="rounded-[20px] py-6 px-12 bg-[#E8F5FF] mb-8 leading-7.25 tracking-[0.5px]">
-                <p className="font-bold text-[23px] mb-4">
+            <div className="rounded-[20px] p-6 md:py-6 md:px-12 bg-[#E8F5FF] mb-6 md:mb-8 tracking-[0.5px]">
+                <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                     Since this was a first-time website, the discovery phase was
                     crucial to establish benchmarks. I analyzed three direct
                     competitors to identify industry standards for usability,
                     navigation, and trust-building elements.
                 </p>
-                <p className="text-[17px]">
+                <p className="text-[12px] md:text-[17px] leading-5 md:leading-7.25">
                     Users actively seek validation through professional credentials, clinician bios, and
                     evidence-based methods before placing their trust.
                 </p>
             </div>
 
-            <div className="flex justify-between tracking-[0.5px] mb-12">
-                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
-                    <p className="font-bold text-[23px] mb-4">
+            <div className="flex flex-col md:flex-row justify-between tracking-[0.5px] md:mb-12 mb-6 gap-y-6">
+                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col md:w-67.75 md:h-66.5">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                         Trust is the foundation
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[17px] leading-5 md:leading-7.25">
                         Sensitive decisions demand immediate, verifiable credibility.
                     </p>
                 </div>
-                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
-                    <p className="font-bold text-[23px] mb-4">
+                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col md:w-67.75 md:h-66.5">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                         Clarity is Paramount
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[17px] leading-5 md:leading-7.25">
                         A clean, hierarchical structure is non-negotiable for a clinical website.
                     </p>
                 </div>
-                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
-                    <p className="font-bold text-[23px] mb-4">
+                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col md:w-67.75 md:h-66.5">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                         Educational Products are Key
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[17px] leading-5 md:leading-7.25">
                         The client's main goals were to highlight and sell their "Parent School" and "Continuing Education" courses.
                     </p>
                 </div>
             </div>
 
-            <div className="flex justify-center w-full">
+            <div className="flex justify-center w-full mb-12">
                 <Image
                     src="/CEPPEMAC/CEPPEMACKeyInsights.svg"
                     alt="CEPPEMAC Key Insights"
                     width={426}
                     height={556}
-                    className="mb-12"
                 />
             </div>
 
@@ -246,24 +245,24 @@ export default function CEPPEMACPage() {
                 DEFINE
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Opportunity to transform the clinic's offline reputation into a compelling and trustworthy online experience.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 md:mb-3 mb-6 tracking-[0.5px]">
                 My analysis pointed to a clear need: users want visibility into the clinic's expertise and credentials so
                 they can validate their trust before engaging.
             </p>
 
-            <div className="flex justify-between tracking-[0.5px] mb-6">
-                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col w-[412px] h-[235px]">
-                    <p className="font-light text-[15px]">
+            <div className="flex justify-between tracking-[0.5px] md:mb-6 mb-8 flex-col md:flex-row gap-y-6">
+                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col md:w-[412px] md:h-[240px] w-full h-full">
+                    <p className="font-light text-[15px] mb-2 md:mb-0">
                         USER PROBLEM
                     </p>
-                    <p className="font-bold text-[23px] mb-2">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-2 leading-7.25">
                         Lack of Credible Validation
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25">
                         Potential clients and course participants
                         hesitate to trust a new online resource
                         without clear, verifiable proof of the
@@ -271,14 +270,14 @@ export default function CEPPEMACPage() {
                         methodologies.
                     </p>
                 </div>
-                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col w-[412px] h-[235px]">
-                    <p className="font-light text-[15px]">
+                <div className="bg-[#E8F5FF] rounded-[20px] p-6 flex flex-col md:w-[412px] md:h-[240px] w-full h-full">
+                    <p className="font-light text-[15px] mb-2 md:mb-0">
                         BUSINESS PROBLEM
                     </p>
-                    <p className="font-bold text-[23px] mb-2">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-2 leading-7.25">
                         Lack of a Digital Footprint
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25">
                         Without a professional and trustworthy
                         website, CEPPEMAC was invisible to a
                         modern audience and lacked a platform
@@ -288,26 +287,26 @@ export default function CEPPEMACPage() {
                 </div>
             </div>
 
-            <p className="tracking-[0.5px] text-[22px] leading-7.25 italic text-center mb-16 px-8">
+            <p className="tracking-[0.5px] text-[16px] md:text-[22px] leading-5 md:leading-7.25 italic text-center mb-8 md:mb-16 md:px-8">
                 <span className="font-semibold">How might we </span>
                 showcase CEPPEMAC's professional authority and
                 evidence-based approach to build immediate trust and establish a
                 strong digital presence?
             </p>
 
-            <p className="font-extrabold tracking-[0.5px] leading-7.25 text-[16px] mb-8">
+            <p className="font-extrabold tracking-[0.5px] text-[12px] leading-5 md:leading-7.25 md:text-[16px] mb-8">
                 Goal: Increase perceived credibility to differentiate CEPPEMAC from generic wellness blogs
                 and other clinics by making the team's expertise, licenses, and methods transparent and easy
                 to verify.
             </p>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-6">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-6">
                 To humanize the research insights and ensure the design addressed the full scope of the clinic's
                 audience, I developed three distinct user personas. This approach was crucial because CEPPEMAC
                 serves highly diverse groups, each with unique goals and concerns:
             </p>
 
-            <ol className="text-[16px] leading-7.25 mb-6 pl-5 tracking-[0.5px] list-decimal">
+            <ol className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 pl-5 tracking-[0.5px] list-decimal">
                 <li>
                     The Concerned Parent: Seeking trustworthy guidance and resources to support their child's mental health.
                 </li>
@@ -319,7 +318,7 @@ export default function CEPPEMACPage() {
                 </li>
             </ol>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-6">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-6">
                 Creating these personas allowed me to balance and prioritize design decisions, ensuring the website
                 resonated with and served each of these key audiences effectively under one cohesive brand. 
             </p>
@@ -345,10 +344,10 @@ export default function CEPPEMACPage() {
                 alt="CEPPEMAC Persona 3"
                 width={848}
                 height={762}
-                className="mb-12"
+                className="mb-4"
             />
 
-            <p className="font-bold text-[16px] leading-7.25 tracking-[0.5px] mb-12">
+            <p className="font-semibold md:font-bold text-[14] md:text-[16px] leading-6 md:leading-7.25 tracking-[0.5px] mb-12 md:mb-20">
                 How might we help concerned parents, dedicated professionals, and seeking teenagers each
                 easily find and confidently trust the mental health guidance specifically designed for them,
                 without overwhelm or doubt?

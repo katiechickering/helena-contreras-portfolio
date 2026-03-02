@@ -102,7 +102,7 @@ export default function PsycheJourneyAppPage() {
                 </p>
             </div>
 
-            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EFEDFF] flex pt-4 justify-center mb-16">
+            <div className="relative left-1/2 right-1/2 -mx-[50vw] w-screen bg-[#EFEDFF] flex pt-4 px-6 md:px-0 justify-center mb-12 md:mb-16">
                 <Image
                     src="/PsycheJourneyApp/PsycheJourneyAppPhoneAndHands.svg"
                     alt="PsycheJourney App Phone and Hands"
@@ -111,7 +111,7 @@ export default function PsycheJourneyAppPage() {
                 />
             </div>
 
-            <p className="font-bold text-[27px] text-center mb-16">
+            <p className="font-semibold md:font-bold text-[18px] md:text-[27px] text-center mb-12 md:mb-16">
                 Key UI Features & Rationale
             </p>
 
@@ -119,11 +119,11 @@ export default function PsycheJourneyAppPage() {
                 DISCOVER
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Without traditional user research, the discovery phase focused on visual and perceptual analysis.
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
                 <li>
                     <span className="font-semibold">Competitive Audits: </span>
                     I analyzed both mainstream e-commerce (Amazon, Mercado Libre) for their
@@ -144,7 +144,7 @@ export default function PsycheJourneyAppPage() {
                 </li>
             </ul>
 
-            <div className="mb-25 flex w-full justify-center">
+            <div className="mb-12 md:mb-25 flex w-full justify-center">
                 <Image
                     src="/PsycheJourneyApp/PsycheJourneyAppDiscoverPhones.svg"
                     alt="PsycheJourney App Discover Phones"
@@ -157,17 +157,17 @@ export default function PsycheJourneyAppPage() {
                 DEFINE
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-6">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 md:mb-3 mb-6">
                 Opportunity to transform the clinic's offline reputation into a
                 compelling and trustworthy online experience.
             </p>
 
-            <div className="flex flex-col gap-4 tracking-[0.5px] mb-6">
+            <div className="flex flex-col gap-6 md:gap-4 tracking-[0.5px] mb-6">
                 <div className="bg-[#EFEDFF] rounded-[20px] p-6 flex flex-col">
                     <p className="font-light text-[15px] mb-2">
                         USER PROBLEM
                     </p>
-                    <p className="text-[16px] leading-7.25">
+                    <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25">
                         <span className="font-semibold">Experienced practitioners lack a dedicated
                         digital storefront that matches their serious, intentional approach. </span>
                         Existing visual landscapes for these products often feel commercial, garish,
@@ -178,10 +178,10 @@ export default function PsycheJourneyAppPage() {
                     <p className="font-light text-[15px] mb-2">
                         DESIGN PROBLEM
                     </p>
-                    <p className="font-semibold text-[16px] leading-7.25 mb-2">
+                    <p className="font-semibold text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-2">
                         To create a cohesive visual language that simultaneously communicates:
                     </p>
-                    <ol className="text-[16px] leading-7.25 pl-5 list-decimal marker:font-semibold">
+                    <ol className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 pl-5 list-decimal marker:font-semibold">
                         <li>
                             <span className="font-semibold">Professional Credibility: </span>
                             Through layout clarity, typographic hierarchy, and predictable patterns.
@@ -198,7 +198,7 @@ export default function PsycheJourneyAppPage() {
                 </div>
             </div>
 
-            <p className="text-[16px] leading-7.25 tracking-[0.5px] mb-16">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] mb-12 md:mb-16">
                 <span className="font-semibold">Visual Strategy Statement: </span>
                 "Purposeful Clarity." The interface must act as a clear window to meaningful
                 content, not a stained-glass distraction.

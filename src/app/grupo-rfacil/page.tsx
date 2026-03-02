@@ -141,7 +141,7 @@ export default function GrupoRfacilPage() {
                 </div>
             </div>
 
-            <p className="font-bold text-[27px] text-center mb-16">
+            <p className="font-semibold md:font-bold text-[18px] md:text-[27px] text-center mb-12 md:mb-16">
                 Here's how I got there
             </p>
 
@@ -149,22 +149,22 @@ export default function GrupoRfacilPage() {
                 DISCOVER
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 A modern, standardized interface is critical for maintaining the
                 competitive edge of a mission-critical business platform
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 With an accelerated timeline, the discovery process focused on a rapid audit of the existing product
                 and alignment with core business objectives.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-3 tracking-[0.5px]">
                 The goal was to quickly identify the most pressing visual and experiential gaps to address in the
                 redesign. My exploration centered on three key questions:
             </p>
 
-            <ul className="text-[16px] leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
+            <ul className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 list-disc pl-5 tracking-[0.5px]">
                 <li>
                     What are the specific inconsistencies in the current UI that create a fragmented user experience?
                 </li>
@@ -178,39 +178,39 @@ export default function GrupoRfacilPage() {
                 </li>
             </ul>
 
-            <p className="font-bold text-[26px] mb-8">
+            <p className="font-semibold md:font-bold text-[18px] md:text-[26px] mb-5 md:mb-8">
                 Key Insights:
             </p>
 
-            <div className="rounded-[20px] py-6 px-12 bg-[#EAF4E7] mb-8 leading-7.25 tracking-[0.5px]">
-                <p className="font-bold text-[23px]">
+            <div className="rounded-[20px] p-6 md:py-6 md:px-12 bg-[#EAF4E7] mb-6 md:mb-8 tracking-[0.5px]">
+                <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                     My analysis centered on the core challenges and opportunities
                     for the platform’s redesign, leading to three guiding principles:
                 </p>
             </div>
 
-            <div className="flex justify-between tracking-[0.5px] mb-12">
-                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
-                    <p className="font-bold text-[23px] mb-4">
+            <div className="flex flex-col md:flex-row justify-between tracking-[0.5px] mb-12 gap-y-6">
+                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col md:w-67.75 md:h-66.5">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                         Fragmentation Creates Friction
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[17px] leading-5 md:leading-7.25">
                         The lack of a unified visual language across modules forced users to relearn interactions, slowing down workflows.
                     </p>
                 </div>
-                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
-                    <p className="font-bold text-[23px] mb-4">
+                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col md:w-67.75 md:h-66.5">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                         A Dated Interface Undermines Confidence
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[17px] leading-5 md:leading-7.25">
                         For enterprise clients, the platform's appearance is a direct signal of its capability and security.
                     </p>
                 </div>
-                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col w-67.75 h-66.5">
-                    <p className="font-bold text-[23px] mb-4">
+                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col md:w-67.75 md:h-66.5">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-4 leading-7.25">
                         Familiar Patterns Speed Adoption
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[17px] leading-5 md:leading-7.25">
                         Leveraging established UX conventions reduces cognitive load and accelerates user proficiency.
                     </p>
                 </div>
@@ -220,25 +220,25 @@ export default function GrupoRfacilPage() {
                 DEFINE
             </p>
 
-            <p className="font-bold text-[27px] leading-8.5 mb-3">
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
                 Opportunity to build confidence through a cohesive user interface.
             </p>
 
-            <p className="text-[16px] leading-7.25 mb-3 tracking-[0.5px]">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 md:mb-3 mb-6 tracking-[0.5px]">
                 My analysis revealed a clear disconnect: users needed an interface that matched the system's technical
                 capability, providing the clarity and predictability essential for error-free, high-stakes financial
                 operations.
             </p>
 
-            <div className="flex justify-between tracking-[0.5px] mb-6">
-                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col w-[412px] h-[310px]">
-                    <p className="font-light text-[15px]">
+            <div className="flex justify-between tracking-[0.5px] md:mb-6 mb-8 flex-col md:flex-row gap-y-6">
+                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col md:w-[412px] md:h-[305px] w-full h-full">
+                    <p className="font-light text-[15px] mb-2 md:mb-0">
                         OPPORTUNITY
                     </p>
-                    <p className="font-bold text-[23px] mb-2">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-2 leading-7.25">
                         A rapid, strategic modernization to meet an immediate business need.
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25">
                         Given the accelerated timeline, the project
                         was scoped as a focused visual and
                         interface overhaul, jumping directly into
@@ -246,14 +246,14 @@ export default function GrupoRfacilPage() {
                         ready assets for development.
                     </p>
                 </div>
-                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col w-[412px] h-[310px]">
-                    <p className="font-light text-[15px]">
+                <div className="bg-[#EAF4E7] rounded-[20px] p-6 flex flex-col md:w-[412px] md:h-[305px] w-full h-full">
+                    <p className="font-light text-[15px] mb-2 md:mb-0">
                         BUSINESS PROBLEM
                     </p>
-                    <p className="font-bold text-[23px] mb-2">
+                    <p className="font-bold text-[20px] md:text-[23px] mb-2 leading-7.25">
                         A pressing need for a modern presentation.
                     </p>
-                    <p className="text-[17px]">
+                    <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25">
                         The company required an updated,
                         professional interface to present to clients
                         and the market, with urgency driven by an
@@ -262,13 +262,13 @@ export default function GrupoRfacilPage() {
                 </div>
             </div>
 
-            <p className="tracking-[0.5px] text-[22px] leading-7.25 italic text-center mb-16 px-8">
+            <p className="tracking-[0.5px] text-[16px] md:text-[22px] leading-5 md:leading-7.25 italic text-center mb-8 md:mb-16 md:px-8">
                 <span className="font-semibold">How might we </span>
                 quickly unify and elevate the platform's visual design to meet this immediate
                 business objective while laying a better foundation for the user experience?
             </p>
 
-            <p className="font-extrabold tracking-[0.5px] leading-7.25 text-[16px] mb-8">
+            <p className="font-extrabold tracking-[0.5px] text-[12px] leading-5 md:leading-7.25 md:text-[16px] mb-8">
                 Goal: Deliver a complete, modernized visual system for core platform flows within a tight
                 timeframe, enabling immediate development and demonstration.
             </p>
