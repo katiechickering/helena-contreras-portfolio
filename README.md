@@ -1,4 +1,4 @@
-# 📱 Helena Contreras' Portfolio
+# 📱 Helena's Portfolio
 
 Check out the deployed website [HERE](https://helena-contreras-portfolio.vercel.app/)
 
