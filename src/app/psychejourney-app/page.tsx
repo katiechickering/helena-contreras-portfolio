@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ArrowIcon from '@/assets/icons/ArrowIcon.svg'
 
 export default function PsycheJourneyAppPage() {
     return(
@@ -36,9 +37,15 @@ export default function PsycheJourneyAppPage() {
                     <p className="tracking-widest text-[14px] mb-1.5">
                         DEVICE
                     </p>
-                    <p>
-                        Mobile
-                    </p>
+                    <a
+                        href="https://www.figma.com/proto/WjXc864lK8MpDWHWQYH49e/PsycheJourney?node-id=1-6&t=i7muM14TkJJx1mMu-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex gap-2 items-center hover:text-[#C81F66]"
+                    >
+                        <span>Mobile</span>
+                        <ArrowIcon className="w-[14.25px] h-[14.25px] shrink-0" />
+                    </a>
                 </div>
             </div>
 

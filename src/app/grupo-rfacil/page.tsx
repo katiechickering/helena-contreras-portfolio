@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ArrowIcon from '@/assets/icons/ArrowIcon.svg'
 
 export default function GrupoRfacilPage() {
     return(
@@ -43,9 +44,15 @@ export default function GrupoRfacilPage() {
                     <p className="tracking-widest text-[14px] mb-1.5">
                         DEVICE
                     </p>
-                    <p>
-                        Desktop
-                    </p>
+                    <a
+                        href="https://www.figma.com/proto/p5LQklC1j1Bkp0E3jgvaLf/Gruporfácil?node-id=1-177&t=i7muM14TkJJx1mMu-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2022%3A437"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex gap-2 items-center hover:text-[#C81F66]"
+                    >
+                        <span>Desktop</span>
+                        <ArrowIcon className="w-[14.25px] h-[14.25px] shrink-0" />
+                    </a>
                 </div>
             </div>
 

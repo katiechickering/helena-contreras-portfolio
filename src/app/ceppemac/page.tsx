@@ -736,7 +736,7 @@ export default function CEPPEMACPage() {
 
             <div className="flex w-full justify-center mb-12">
                 <a
-                    href=""
+                    href="https://www.figma.com/proto/HDiT7FHtSud1i3GN0RDvC3/CEPPEMAC?node-id=1305-2264&p=f&t=XjiLn0D4DPoUxSY7-0&scaling=scale-down-width&content-scaling=fixed&page-id=1178%3A1760&starting-point-node-id=1178%3A1866&show-proto-sidebar=1"
                     className="hover:bg-[#E0E0E0] bg-brand-white text-brand-black rounded-full px-4 py-2 text-[15px] w-fit border-2"
                 >
                     View Prototype

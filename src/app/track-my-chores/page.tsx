@@ -480,7 +480,7 @@ export default function TrackMyChoresPage() {
                 Reflections
             </p>
 
-            <div className="rounded-[20px] p-3 md:p-6 bg-[#FFEFE0] flex flex-col text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] gap-3 mb-12">
+            <div className="rounded-[20px] p-3 md:p-6 bg-[#FFEFE0] flex flex-col text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] gap-3">
                 <p className="p-3 md:px-6">
                     Transparency is essential when designing systems that involve trust between users.
                 </p>
