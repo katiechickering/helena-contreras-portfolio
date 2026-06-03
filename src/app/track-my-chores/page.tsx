@@ -9,8 +9,8 @@ export default function TrackMyChoresPage() {
             </p>
 
             <p className="text-[20px] md:text-[28px] leading-7 md:leading-9.5 tracking-[-2px] mb-8 mx-0 md:-mx-13.5 w-full md:w-239">
-                A mobile chore-tracking system designed to reduce family conflict by replacing
-                reminders with verifiable proof and transparent approval flows.
+                Collaborated with a remote development team to design a mobile chore-tracking app that replaces
+                reminders with visual proof of task completion.
             </p>
 
             <div
@@ -49,10 +49,15 @@ export default function TrackMyChoresPage() {
                     <p className="tracking-widest text-[14px] mb-1.5">
                         DEVICE
                     </p>
-                    <p className="flex gap-2 items-center">
-                        Mobile
-                        <ArrowIcon className="w-[14.25px] h-[14.25px] shrink-0"/>
-                    </p>
+                    <a
+                        href="https://www.figma.com/proto/vCfa6Rpe8xhexNwi0Vzica/%F0%9F%8C%99-Dark-Mode-Hi-fi-Wireframe-Chore-Tracking-App?node-id=4009-556&t=5Tr9tZkpyT06UMUr-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=127%3A670&show-proto-sidebar=1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex gap-2 items-center hover:text-[#C81F66]"
+                    >
+                        <span>Mobile</span>
+                        <ArrowIcon className="w-[14.25px] h-[14.25px] shrink-0" />
+                    </a>
                 </div>
             </div>
 
@@ -116,34 +121,22 @@ export default function TrackMyChoresPage() {
                     <p className="font-semibold md:font-bold text-[18px] md:text-[27px]">
                         Impact
                     </p>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center">
-                        <p className="font-bold text-[28px] md:w-50 w-25 text-center shrink-0">
-                            78%
-                        </p>
-                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                    <div className="rounded-[20px] bg-brand-white flex py-6 px-5 items-center">
                         <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
-                            78% of parents reported a measurable decrease in daily conflicts about
-                            chores after introducing the proof-based system.
+                            Delivered a production-ready mobile experience currently under review for release
+                            on the App Store and Google Play.
                         </p>
                     </div>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center">
-                        <p className="font-bold text-[28px] md:w-50 w-25 text-center shrink-0">
-                            4.7
-                        </p>
-                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                    <div className="rounded-[20px] bg-brand-white flex py-6 px-5 items-center">
                         <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
-                            Users rated the app's verification system with a Trust Score of 4.7/5, citing
-                            "no more arguments" as the primary reason.
+                            Designed a scalable interaction model supporting multiple parents and children
+                            within a single household.
                         </p>
                     </div>
-                    <div className="rounded-[20px] bg-brand-white flex py-6 pr-4 md:pr-10 pl-2 items-center">
-                        <p className="font-bold text-[28px] md:w-50 w-25 text-center shrink-0">
-                            -60%
-                        </p>
-                        <div className="w-0.5 h-18.5 md:h-20.5 bg-brand-black mr-4 shrink-0"/>
+                    <div className="rounded-[20px] bg-brand-white flex py-6 px-5 items-center">
                         <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
-                            Parental "check-ins" on chore status decreased by over 60% as reliance on
-                            the app's verification system increased.
+                            Created a streamlined approval workflow that reduces friction in reviewing
+                            completed tasks.
                         </p>
                     </div>
                 </div>
@@ -434,7 +427,7 @@ export default function TrackMyChoresPage() {
             </div>
 
             <p className="font-bold text-[14px] mb-3">
-                PROTOTYPE & TEST
+                PROTOTYPE & DELIVERY
             </p>
 
             <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
@@ -442,7 +435,7 @@ export default function TrackMyChoresPage() {
             </p>
 
             <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-6 md:mb-3 tracking-[0.5px]">
-                I developed a high-fidelity, functional prototype" flow for both light and dark mode, fulfilling a key
+                I developed a high-fidelity, functional prototype flow for both light and dark mode, fulfilling a key
                 client requirement.
             </p>
 
@@ -476,7 +469,33 @@ export default function TrackMyChoresPage() {
                 </div>
             </div>
 
-            <p className="font-bold text-[17px] leading-7.25 tracking-[0.5px] mb-3">
+            <p className="text-[12px] md:text-[16px] leading-5 md:leading-7.25 mb-12 tracking-[0.5px] mt-3 md:mt-8">
+                The final design was brought to life as a production-ready iOS mobile experience published on the App Store.
+                <br/><br/>
+                The core verification flow enables children to document completed chores through before-and-after
+                photos while parents review and approve submissions through a streamlined dashboard.
+            </p>
+
+            <p className="font-semibold md:font-bold text-[20px] md:text-[27px] leading-7 md:leading-8.5 mb-3">
+                Reflections
+            </p>
+
+            <div className="rounded-[20px] p-3 md:p-6 bg-[#FFEFE0] flex flex-col text-[12px] md:text-[16px] leading-5 md:leading-7.25 tracking-[0.5px] gap-3 mb-12">
+                <p className="p-3 md:px-6">
+                    Transparency is essential when designing systems that involve trust between users.
+                </p>
+                <div className="h-0.5 w-full bg-brand-white"/>
+                <p className="p-3 md:px-6">
+                    Visual verification proved to be a powerful way to reduce ambiguity and conflict.
+                </p>
+                <div className="h-0.5 w-full bg-brand-white"/>
+                <p className="p-3 md:px-6">
+                    Close collaboration with developers helped ensure that design decisions aligned
+                    with technical feasibility.
+                </p>
+            </div>
+
+            {/* <p className="font-bold text-[17px] leading-7.25 tracking-[0.5px] mb-3">
                 Usability testing validated the design's effectiveness and identified key refinements
             </p>
 
@@ -514,7 +533,7 @@ export default function TrackMyChoresPage() {
                     width={647}
                     height={328}
                 />
-            </div>
+            </div> */}
         </div>
     )
 }
