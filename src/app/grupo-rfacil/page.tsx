@@ -417,29 +417,25 @@ export default function GrupoRfacilPage() {
                 Development Director Thoughts
             </p>
 
-            <div className="rounded-[20px] bg-white flex p-6 items-center">
-                
-                <div className="flex flex-col md:flex-row gap-6 md:gap-12 items-center">
-                    <p className="text-[12px] md:text-[14px] leading-5 md:leading-6.5 tracking-[0.5] italic">
-                        Helena was a key contributor to the modernization of our ERP. She has an incredible
-                        ability to turn dense processes into simple, easy-to-use interfaces. What I value
-                        most is her judgment: she knows exactly when to prioritize usability and workflow
-                        over purely visual elements. In complex technical projects, she is someone you always
-                        want on your team.
-                        <br/><br/>
-                        <span className="font-semibold md:font-bold text-[11px] md:text-[13px]">César Villegas</span>
-                        <br/>
-                        <span className="text-[11px]">Development Director, Grupo RFacil</span>
-                    </p>
+            <div className="rounded-[20px] bg-white flex p-6 flex-col md:flex-row gap-6 md:gap-12 items-center">
+                <p className="text-[12px] md:text-[14px] leading-5 md:leading-6.5 tracking-[0.5] italic">
+                    Helena was a key contributor to the modernization of our ERP. She has an incredible
+                    ability to turn dense processes into simple, easy-to-use interfaces. What I value
+                    most is her judgment: she knows exactly when to prioritize usability and workflow
+                    over purely visual elements. In complex technical projects, she is someone you always
+                    want on your team.
+                    <br/><br/>
+                    <span className="font-semibold md:font-bold text-[11px] md:text-[13px]">César Villegas</span>
+                    <br/>
+                    <span className="text-[11px]">Development Director, Grupo RFacil</span>
+                </p>
 
-                    <Image
-                        src="/GrupoRfacil/GrupoRfacilDirector.svg"
-                        alt="GrupoRfacil Director"
-                        width={177}
-                        height={177}
-                        className=""
-                    />
-                </div>
+                <Image
+                    src="/GrupoRfacil/GrupoRfacilDirector.svg"
+                    alt="GrupoRfacil Director"
+                    width={177}
+                    height={177}
+                />
             </div>
         </div>
     )
