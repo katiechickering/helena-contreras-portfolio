@@ -40,14 +40,6 @@ export const Footer = () => {
                     >
                         LinkedIn
                     </a>
-                    <a
-                        href=""
-                        // target="_blank"
-                        // rel="noopener noreferrer"
-                        className="hover:text-[#C81F66] text-[13px]"
-                    >
-                        Behance
-                    </a>
                 </div>
                 <div className="flex flex-col gap-1.5">
                     <p className="text-[21px]">

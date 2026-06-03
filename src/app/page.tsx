@@ -9,7 +9,13 @@ export default function Home() {
       <div className="flex justify-between items-end w-full pb-12">
         <div className="flex flex-col">
           <div className="md:hidden flex w-full justify-center mb-12">
-            <div className="rounded-full bg-[#D9D9D9] w-65 h-65 shrink-0"/>
+            <Image
+              src="/profile/ProfilePic.png"
+              alt="Profile picture"
+              width={260}
+              height={260}
+              className="w-65 h-65 rounded-full object-cover shrink-0"
+            />
           </div>
           <p className="font-bold text-[52px] leading-12 md:leading-18 tracking-[-2px]">
             HELENA
@@ -23,7 +29,13 @@ export default function Home() {
             creative solutions for various brands and companies.
           </p>
         </div>
-        <div className="hidden md:flex rounded-full bg-[#D9D9D9] w-65 h-65 shrink-0 ml-20"/>
+        <Image
+          src="/profile/ProfilePic.png"
+          alt="Profile picture"
+          width={260}
+          height={260}
+          className="hidden md:flex w-65 h-65 rounded-full object-cover shrink-0 ml-20"
+        />
       </div>
 
       {/* Track My Chores App */}

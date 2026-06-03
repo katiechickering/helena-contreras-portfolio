@@ -1,7 +1,15 @@
+import Image from "next/image";
+
 export default function AboutPage() {
     return(
         <div className="flex w-254 gap-12 md:gap-8 flex-col md:flex-row items-center md:items-start px-12 md:px-0">
-            <div className="rounded-full bg-[#D9D9D9] w-65 h-65 shrink-0"/>
+            <Image
+                src="/profile/ProfilePic.png"
+                alt="Profile"
+                width={296}
+                height={296}
+                className="rounded-full shrink-0 object-cover"
+            />
             <div className="flex flex-col w-full text-[16px] leading-5 md:leading-7.25 gap-6 tracking-[0.5px]">
                 <p className="text-[24px] md:text-[36px] font-bold tracking-[-2px]">
                     Hi! I'm
@@ -26,9 +34,10 @@ export default function AboutPage() {
                     I’m passionate about creating intuitive, accessible interfaces where clarity and emotional impact are paramount.
                 </p>
                 <p>
-                    When I’m not designing, I’m likely exploring my city through a camera lens
-                    or brewing the perfect cup of coffee. I’m also the person friends count
-                    on to find the best local coffee shop in any neighborhood.
+                    When I’m not designing, I’m likely creating fractal art, exploring my city through a camera lens,
+                    or brewing the perfect cup of coffee. I’m also a visual artist whose work has been exhibited in
+                    gallery spaces, and the same curiosity and emotional storytelling I bring to my art continues to
+                    shape my design perspective.
                 </p>
             </div>
         </div>
