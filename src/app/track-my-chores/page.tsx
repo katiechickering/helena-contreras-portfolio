@@ -123,8 +123,8 @@ export default function TrackMyChoresPage() {
                     </p>
                     <div className="rounded-[20px] bg-brand-white flex py-6 px-5 items-center">
                         <p className="text-[10px] md:text-[17px] leading-3.25 md:leading-7.25 tracking-[0.5]">
-                            Delivered a production-ready mobile experience currently under review for release
-                            on the App Store and Google Play.
+                            Delivered a production-ready mobile application that successfully launched on the
+                            App Store, bringing the experience to live users.
                         </p>
                     </div>
                     <div className="rounded-[20px] bg-brand-white flex py-6 px-5 items-center">
